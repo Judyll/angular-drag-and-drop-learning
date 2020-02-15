@@ -1,0 +1,24 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+</div>
+
+<div>
+  <div class="wrapper">
+    <div class="container" [dragula]="'bag-task-1'">
+      <div>Task 1: Create a new angular project using npm</div>
+      <div>Task 2: Move into your project folder</div>
+      <div>Task 3: Install ng2-dragula component into your angular project</div>
+    </div>
+    <div class="container" [dragula]="'bag-task-2'">
+      <div>Task 4: Import the module in the app module and add it to the NgModule imports</div>
+      <div>Task 5: In the app component, import the Dragula service, inject it into the constructor</div>
+      <div>Task 6: In the app template, add the html code with the property dragula</div>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
